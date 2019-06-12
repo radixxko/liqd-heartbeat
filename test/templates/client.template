@@ -1,0 +1,9 @@
+<div style="margin:10px; float:left; padding:10px; background:#eee;border-radius: 10px;min-width: 200px; min-height: 150px;">
+	<div>{ client.id }</div>
+	<div>{ client.name }</div>
+	<div>{ client.system.hostname }</div>
+	<div>{ client.system.username }</div>
+	<div>{ client.system.platform + '-' + client.system.version + ' ' + client.system.arch }</div>
+	<div>{ client.system.cpus }</div>
+	<div>{ client.data.ram }</div>
+</div>
